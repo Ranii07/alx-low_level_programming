@@ -5,7 +5,7 @@
 /*
  * main - entry point
  *
- * Description - prints last digit
+ * Description - checks the last digit of the random number
  *
  * Returns 0 (success)
  */
