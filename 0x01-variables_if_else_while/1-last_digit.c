@@ -5,7 +5,7 @@
 /*
  * main - entry point
  *
- * Description - checks the last digit of the random number
+ * Description - checks on the last digit of the assigned var
  *
  * Returns 0 (success)
  */
