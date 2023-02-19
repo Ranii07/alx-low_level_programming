@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - entry point
- * Description: checks on the last digit of the assigned var
- * Returns: Always 0 (success)
+/**
+ * main - Entry point
+ * 
+ * Description: 'checks the las digit of the number'
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
