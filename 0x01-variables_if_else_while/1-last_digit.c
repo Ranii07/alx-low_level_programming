@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  * 
- * Description: 'checks the las digit of the number'
+ * This program checks the last digit of the number
  * 
  * Return: Always 0 (Success)
  */
