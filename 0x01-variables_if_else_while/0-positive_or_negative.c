@@ -5,10 +5,10 @@
 /**
  * main -Entry point
  *
- * Description: 'This program will assign a random number to the variable n each time it is executed.'
+ * Description: 'This program will assign a random number to the variable n when executed.'
  *
  * Return: Always 0 (success)
- */
+*/
 
 int main(void)
 
@@ -17,7 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if ((n == 0))
 	{	printf(" %d is zero", n);
-	} 
+	}
 	else if (n < 0)
 	{	printf(" %d is negative", n);
 	}
