@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
- * 
+ *main -Entry point
+ *
  *This program checks the last digit of the number
- * 
+ *
  *Return: Always 0 (Success)
  */
 int main(void)
