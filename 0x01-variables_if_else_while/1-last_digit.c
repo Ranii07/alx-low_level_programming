@@ -5,11 +5,10 @@
 /*
  * main - entry point
  *
- * description - prints last digit
+ * Description - prints last digit
  *
  * Returns 0 (success)
  */
-
 int main(void)
 {
 	int n;
