@@ -5,7 +5,7 @@
  *
  * Description: This program prints the alphabet
  * in lowercase and then uppercase
- * , followed by a new line.
+ * 
  *
  * Return: Always 0 (success)
  *
