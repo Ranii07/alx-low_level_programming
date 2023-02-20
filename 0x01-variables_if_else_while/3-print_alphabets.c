@@ -3,8 +3,8 @@
 /**
  * main - prints the lowercase and uppercase alphabet
  *
- * Description: prints the alphabet in lowercase 
- * and then in uppercase 
+ * Description: prints the alphabet in lowercase
+ * and then in uppercase
  *
  * Return: Always 0 (Success)
 */
