@@ -1,13 +1,11 @@
 #include <stdio.h>
-
 /**
- * Main - Entry point
+ * main - prints all single digit numbers
  *
- * Description : prints all single digit
- * numbers
+ * Description: prints all single digit numbers
  *
- * Returns: Always 0 (success)
- */
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int n;
