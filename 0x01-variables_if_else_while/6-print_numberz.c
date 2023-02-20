@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * Main - Entry point
  *
  * Description : prints all single digit
