@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /*
- * main - Entry point
+ *main - Entry point
  *
- *Description: This program prints the alphabet in lowercase and then uppercase
+ *Description: 'This program prints the alphabet in lowercase and then uppercase'
  *
  * Return: Always 0 (success)
  *
