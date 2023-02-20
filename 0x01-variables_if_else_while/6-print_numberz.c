@@ -3,8 +3,10 @@
 /*
  * Main - Entry point
  *
- * Description : prints all single digit 
+ * Description : prints all single digit
  * numbers
+ *
+ * Returns: Always 0 (success)
  */
 int main(void)
 {
