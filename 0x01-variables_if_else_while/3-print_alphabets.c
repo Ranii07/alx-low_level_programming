@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include <unistd.h>
-/*
- * main - Entry point
+/**
+ * main - prints the lowercase and uppercase alphabet
  *
- * Description: This program prints the alphabet
- * in lowercase and then uppercase
+ * Description: prints the alphabet in lowercase 
+ * and then in uppercase 
  *
- *
- * Return: Always 0 (success)
- *
- */
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int ch;
