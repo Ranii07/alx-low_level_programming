@@ -1,22 +1,25 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * Main - Entry point 
+ * main - prints the lowercase alphabet in reverse
  *
  * Description: prints the lowercase alphabet in reverse
  *
- * Return: Always 0 (success)
- *
+ * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-	int ch;
+	int i;
 
-	for (ch = 'z'; ch <= 'a'; ch++)
+	i = 122;
+
+	while (i > 96)
 	{
-		putchar(ch);
+		putchar(i);
+		i--;
 	}
-	putchar('\n');
+	putchar(10);
 
 	return (0);
 }
