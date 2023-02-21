@@ -7,15 +7,17 @@
  *
  * Return: Always 0 (Success)
 */
-int _putchar(char c);
-
-int main()
+int main(void)
 {
-	char str[] = "_putchar\n";
-	long unsigned int i;
-	for (i = 0; i < sizeof(str); i++)
+char str[] = "_putchar\n";
+int i = 0;
+
+while (str[i] != '\0')
 	{
-		putchar(str[i]);
+	char c = str[i];
+
+	_putchar(c);
+	i++;
 	}
-	return 0;
+return (0);
 }
