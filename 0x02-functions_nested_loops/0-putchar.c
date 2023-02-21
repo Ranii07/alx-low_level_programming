@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - prints _putchar
  *
@@ -6,6 +7,8 @@
  *
  * Return: Always 0 (Success)
 */
+int _putchar(char c);
+
 int main()
 {
 	char str[] = "_putchar\n";
@@ -14,6 +17,5 @@ int main()
 	{
 		putchar(str[i]);
 	}
-
 	return 0;
 }
