@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - prints _putchar
  *
@@ -7,19 +6,14 @@
  *
  * Return: Always 0 (Success)
 */
-
-int _putchar(char c);
-
 int main()
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	char str[] = "_putchar\n";
+	long unsigned int i;
+	for (i = 0; i < sizeof(str); i++)
+	{
+		putchar(str[i]);
+	}
+
+	return 0;
 }
