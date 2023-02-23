@@ -1,9 +1,9 @@
-#include "main.h"
+#include <stdio.h>
 
-void positive_or_negativeoi(int i)
+void positive_or_negative()
 {  
        	int i;
-        
+        i = 0;
         if (i == 0)
         {
                 printf("%d is zero\n", i);
@@ -15,9 +15,9 @@ void positive_or_negativeoi(int i)
 
 	else if (i > 0)
 	{
-		print("%d is positive\n", i);
+		printf("%d is positive\n", i);
 	}
         
-        return (0);
+       
 }
 
