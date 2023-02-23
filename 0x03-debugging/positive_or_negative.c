@@ -1,6 +1,6 @@
-#include <main.h>
+#include "main.h"
 
-void positive_or_negative(int i)
+void positive_or_negativeoi(int i)
 {  
        	int i;
         
