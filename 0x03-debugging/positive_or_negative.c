@@ -1,9 +1,13 @@
 #include <main.h>
-
+/**
+ * positive_or_negative function to test if 
+ * the number entered is positive
+ *
+ */
 
 void positive_or_negative(int i)
-
-{       int i;
+{  
+       	int i;
         
         if (i > 0)
         {
