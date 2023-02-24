@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code.
+ * main -  checks for uppercase character.
  *
  * Return: Always 0.
  */
@@ -10,9 +9,15 @@ int main(void)
 {
     char c;
 
-    c = 'Q';
-    printf("%c: %d\n", c, _isupper(c));
-    c = 'y';
-    printf("%c: %d\n", c, _isupper(c));
-    return (0);
+    if (c>=65 && c<=90)
+    {
+	   
+	    _isupper(c));
+	    return (1);
+    }
+    else 
+    {
+	    return (0);
+    }
+    return 0;
 }
