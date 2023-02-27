@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * swap_int - swaps the values of a and b
  * @a: pointer 1
@@ -10,6 +9,6 @@
 void swap_int(int *a, int *b)
 {
 	int temp = *a;
-       	*a = *b;
+	*a = *b;
 	*b = temp;
 }
