@@ -10,13 +10,13 @@
 */
 void reset_to_98(int *n)
 {
-	int a;
+	int n;
 
-	a  = 402;
+	n  = 402;
 
-	int *n = &a;
+	int *n = &n;
 
-	reset_to_98(&a);
+	reset_to_98(&n);
 
 	return (0);
 }
