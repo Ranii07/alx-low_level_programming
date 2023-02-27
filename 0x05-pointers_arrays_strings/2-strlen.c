@@ -8,7 +8,9 @@
  */
 int _strlen(char *s)
 {
-	char s[] = "My first sting";
-	int len = _strlen(s);
-	return (0);
+	int length = 0;
+
+	while (s[length])
+		length++;
+	return (length);
 }
