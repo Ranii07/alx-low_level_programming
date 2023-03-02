@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  *
  * char *_strat() - Write a function that concatenates two strings
