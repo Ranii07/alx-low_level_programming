@@ -11,8 +11,8 @@
 
 int main()
 {
-	char destination[] = "Hello ";
-	char source[] = "World!";
+	char destination[15] = "Hello";
+	char source[6] = "World!";
 	strcat(destination,source);
 	return (0);
 }
