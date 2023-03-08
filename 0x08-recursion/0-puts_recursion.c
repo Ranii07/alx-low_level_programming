@@ -6,11 +6,21 @@
  *
  * Return: Always 0
  */
+void _puts_recursion(char *s)
+{
+	if(*s == '\0')
+	{
+		putchar('\n');
+		return 0;
+	}
+	putchar(*s);
+	_puts_recusion(s+1);
+}
 
 int main()
 {
-	char *s;
+	char *mystring;
 
-	*s = "My string";
-	_puts_recursion(s);
+	*mystring = "My string";
+	_puts_recursion(mystring);
 }
