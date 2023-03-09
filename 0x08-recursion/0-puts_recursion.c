@@ -1,18 +1,19 @@
 #include "main.h"
+
 /**
- * main - prints a string followed by new line 
+ * -puts_recursion - prints a string followed by new line 
  *
  * @*s - is a pointer
  *
- * Return: Always 0
+ * Return: void
  */
 void _puts_recursion(char *s)
 {
 	if(*s == '\0')
 	{
-		putchar('\n');
+		_putchar('\n');
 		return 0;
 	}
-	putchar(*s);
+	_putchar(*s);
 	_puts_recusion(s+1);
 }
