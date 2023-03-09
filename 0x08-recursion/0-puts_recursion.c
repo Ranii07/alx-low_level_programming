@@ -16,11 +16,3 @@ void _puts_recursion(char *s)
 	putchar(*s);
 	_puts_recusion(s+1);
 }
-
-int main()
-{
-	char *mystring;
-
-	*mystring = "My string";
-	_puts_recursion(mystring);
-}
