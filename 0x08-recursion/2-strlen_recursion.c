@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * _strlen_recursion - returns the length of the string 
+ * _strlen_recursion - Returns the length of a string
  *
  * @s - is a string to be measured
  *
