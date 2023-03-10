@@ -52,4 +52,4 @@ int is_prime_number(int n)
 	}
 
 	return (is_prime_helper(n, 5));
-}i
+}
